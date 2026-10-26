@@ -1,0 +1,1 @@
+SFC.EXE /ScanNow; DISM.EXE /Online /Cleanup-Image /ScanHealth; DISM.EXE /Online /Cleanup-Image /RestoreHealth; DISM.EXE /Online /Cleanup-Image /StartComponentCleanup /ResetBase; SFC.EXE /ScanNow
