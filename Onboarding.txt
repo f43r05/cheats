@@ -1,3 +1,3 @@
-curl --ssl-no-revoke -o "Onboarding.msi" "https://app.###/agent/f8fb6ce4-b915-11f1-bd3a-db338360ff22f8f/Windows/agent(Onboarding).msi" && msiexec /i "Onboarding.msi" /quiet /qn
+curl --ssl-no-revoke -o "Onboarding.msi" "https://app.###/agent/f8fb6ce4-b915-11f1-bd3a-db338360ff22/Windows/agent(Onboarding).msi" && msiexec /i "Onboarding.msi" /quiet /qn
 
 Switch first 3 last 3
